@@ -3,8 +3,9 @@
 	<title>RVK Calendar newsletter</title>
   </head>
   <body>
-	<h1>Warning</h1>
-	<p>There is no need to have the web component running right now, all you need is the sending script connected to the cron.</p>
-	<p>In the future we can have a sign-up for here and manage your category preferences.</p>
+	<h1>Calendar</h1>
+	<form action="/ics" method="get">
+	<p>Tags: <input type="text" name="tags" /> <input type="submit" name="Download Calendar" /></p>
+	</form>
   </body>
 </html>
