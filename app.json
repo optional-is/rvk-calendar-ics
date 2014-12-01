@@ -3,7 +3,7 @@
   "description": "This services uses the RVK Calendar API to fetch events, parses the data and returns an ICS file for calendaring app",
   "repository": "https://github.com/optional-is/rvk-calendar-ics",
   "keywords": ["python", "flask", "calendar", "ics"],
-  "website": "",
+  "website": "https://github.com/optional-is/rvk-calendar-ics",
   "env": {
     "LANGUAGE":          "en",
   }
